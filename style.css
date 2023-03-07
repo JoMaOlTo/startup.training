@@ -1,0 +1,53 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Code Pro', monospace;
+
+    /*Esta parte salio de la pagina: https://css-tricks.com/perfect-full-page-background-image/ ajusta la imagen de acuerdo al tamaño*/
+    background: url(pageBackground.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(205, 214, 221);
+}
+
+.btn-primary{
+    background-color: #F05F44;
+    border-color: #F05F44;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #b32006;
+    border-color: #F05F44;
+}
+
+.col{
+    background-color: peachpuff;
+    border: 1px solid black;
+}
+
+/*Se genera una linea */
+hr{
+    color: #F05F44;
+    max-width: 80px;
+    border-width: 3px;
+}
+
+/*Personalización de botones*/
+.xl-boton{
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 300PX;
+    text-transform: uppercase;
+}
+
+.buffer{
+    height: 3rem;
+}
